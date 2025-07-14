@@ -1,0 +1,28 @@
+/* Hide Streamlit Style */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/* Page Background */
+[data-testid="stAppViewContainer"] {
+    background-color: #444cf755;
+    opacity: 0.8;
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #000000 10px), repeating-linear-gradient(#00000055, #000000);
+}
+
+.stButton, .stTextInput, .stDataFrame, .stAlert {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stButton:hover, .stTextInput:hover, .stDataFrame:hover, .stAlert:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+}

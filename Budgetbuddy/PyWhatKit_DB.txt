@@ -1,0 +1,10 @@
+Date: 13/5/2025
+Time: 13:37
+Phone Number: +911234567890
+Message: Hello, this is an automated message from Python!
+--------------------
+Date: 13/5/2025
+Time: 13:39
+Phone Number: +91962203580
+Message: Hello, this is an automated message from Python!
+--------------------
